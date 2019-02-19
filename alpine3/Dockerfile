@@ -28,7 +28,7 @@ RUN echo "===> Installing sudo to emulate normal OS behavior..."  && \
     \
     \
     echo "===> Installing handy tools (not absolutely required)..."  && \
-    pip install --upgrade pycrypto pywinrm         && \
+    pip install --upgrade pycrypto pywinrm netaddr && \
     apk --update add sshpass openssh-client rsync  && \
     \
     \
