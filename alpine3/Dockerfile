@@ -11,7 +11,6 @@ FROM alpine:3.8
 
 MAINTAINER William Yeh <william.pjyeh@gmail.com>
 
-
 RUN echo "===> Installing sudo to emulate normal OS behavior..."  && \
     apk --update add sudo                                         && \
     \
